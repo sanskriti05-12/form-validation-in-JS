@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        form{
+            justify-content: center;
+            background-color: rgb(123, 245, 225);
+            padding: 0px;
+            margin: 0px;
+        }
+        #submit{
+            background-color: blue;
+            border-radius: 10px;
+            padding: 5px 20px;
+        
+        }
+        
+    </style>
+</head>
+<body>
+    <form >
+        <p id="errorname"></p>
+       enter name <input type="text" id="name" placeholder="enter your name"><br><br>
+       <p id="errorid"></p>
+       email <input type="text" id="email" placeholder="enter your email"><br><br>
+       <p id="errorpassword"></p>
+       password <input type="text" id="password" placeholder=" enter your password"><br><br>
+       <p id="errorcpass"></p>
+       conformpass <input type="text" id="conformpass"placeholder="confrom password"><br><br>
+       <p id="errormobilno"></p>
+       mobil no <input type="text" id="mobil" placeholder="enter your mobil no."><br><br>
+       
+<input type="submit"  id="submit"  value="login" onclick="return submitt()" ><br>
+        
+        
+         
+        
+
+    </form>
+    <script src="index.js"></script>
+</body>
+</html>
